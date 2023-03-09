@@ -1,0 +1,79 @@
+html{
+    font-family: monospace, 'Trebuchet MS', sans-serif;
+}
+div img{
+    display: block;
+    max-width:350px;
+    max-height:500px;
+    width: auto;
+    height: 500px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+a{
+    text-decoration:none;
+    /* removes hyperlink underline */
+}
+p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.item img:hover{
+    transform: scale(1.05);
+    transition: all ease;
+    border-radius: 0px;
+    box-shadow: 0 0 5px rgb(138, 138, 138);
+    /* animation */
+}
+#logo{
+    width: 170px;
+    height:170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.heading{
+    font-size:30px;
+    color: orangered;
+    text-align: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    gap:20px;
+   }
+.ingredients{
+    border-radius: 0px;
+    background-color: rgb(237, 240, 230);
+    padding:20px;
+    flex-grow: 3;
+    font-size: 16px;
+    column-width: 1250px;
+}
+.steps{
+    border-radius: 0px;
+    background-color: rgb(240, 238, 230);
+    padding:20px;
+    flex-grow: 3;
+    font-size: 16px;
+}
+.recipe-photo{}
